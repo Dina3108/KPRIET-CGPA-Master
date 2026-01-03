@@ -215,15 +215,15 @@ function CSE_sem3_score() {
   let DMSL = document.querySelector(".DMSL-input").value;
   let Design_Studio = document.querySelector(".Design-Studio-input").value;
   let result =
-    (DM * 4 +
+    (DM * 3 +
       COA * 3 +
       DMST * 3 +
-      DV * 4 +
+      DV * 3 +
       DS * 3 +
       Java * 3 +
       DMSL * 2 +
       Design_Studio * 1) /
-    23;
+    21;
   let roundedresult = parseFloat(result.toFixed(3));
   console.log(result);
   document.querySelector(
@@ -241,10 +241,10 @@ function CSE_sem3_arrear() {
   let DMSL = document.querySelector(".DMSL-input").value;
   let Design_Studio = document.querySelector(".Design-Studio-input").value;
   let result =
-    (DM * 4 +
+    (DM * 3 +
       COA * 3 +
       DMST * 3 +
-      DV * 4 +
+      DV * 3 +
       DS * 3 +
       Java * 3 +
       DMSL * 2 +
@@ -488,3 +488,4 @@ function CSE_sem8_arrear() {
     ".arr-result-p"
   ).innerHTML = `Your SGPA = ${roundedresult}`;
 }
+
